@@ -1,0 +1,256 @@
+CRITICAL - 2022-02-11 09:24:10 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:24:12 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:24:17 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:25:15 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:25:16 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:28:56 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:28:56 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:29:04 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:30:57 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:31:54 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:32:05 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:32:11 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:32:12 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:37:33 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:37:58 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:37:59 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:37:59 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:38:31 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:38:31 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:38:32 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:38:47 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:39:20 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 09:39:21 --> Undefined variable $page
+#0 /var/www/html/ci418/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 12:11:18 --> Cannot call constructor
+#0 /var/www/html/ci418/system/CodeIgniter.php(802): App\Controllers\Challenge->__construct()
+#1 /var/www/html/ci418/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-11 12:11:59 --> Cannot call constructor
+#0 /var/www/html/ci418/system/CodeIgniter.php(802): App\Controllers\Challenge->__construct()
+#1 /var/www/html/ci418/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-11 12:12:12 --> Too few arguments to function App\Controllers\Challenge::__construct(), 0 passed in /var/www/html/ci418/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/html/ci418/system/CodeIgniter.php(802): App\Controllers\Challenge->__construct()
+#1 /var/www/html/ci418/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-11 12:26:51 --> Cannot call constructor
+#0 /var/www/html/ci418/system/CodeIgniter.php(802): App\Controllers\Challenge->__construct()
+#1 /var/www/html/ci418/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-11 12:40:28 --> syntax error, unexpected token ")"
+#0 /var/www/html/ci418/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/ci418/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/ci418/app/Controllers/Challenge.php(38): view()
+#3 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->registrationinfo()
+#4 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-11 12:47:45 --> Undefined variable $upload_data
+#0 /var/www/html/ci418/app/Views/challenge/registration.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/View/View.php(210): include('...')
+#2 /var/www/html/ci418/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ci418/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ci418/app/Controllers/Challenge.php(38): view()
+#5 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->registrationinfo()
+#6 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-02-11 12:53:17 --> Too few arguments to function form_hidden(), 0 passed in /var/www/html/ci418/app/Views/challenge/registration.php on line 14 and at least 1 expected
+#0 /var/www/html/ci418/app/Views/challenge/registration.php(14): form_hidden()
+#1 /var/www/html/ci418/system/View/View.php(210): include('...')
+#2 /var/www/html/ci418/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ci418/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ci418/app/Controllers/Challenge.php(38): view()
+#5 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->registrationinfo()
+#6 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-02-11 12:55:01 --> Too few arguments to function form_hidden(), 0 passed in /var/www/html/ci418/app/Views/challenge/registration.php on line 14 and at least 1 expected
+#0 /var/www/html/ci418/app/Views/challenge/registration.php(14): form_hidden()
+#1 /var/www/html/ci418/system/View/View.php(210): include('...')
+#2 /var/www/html/ci418/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ci418/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ci418/app/Controllers/Challenge.php(38): view()
+#5 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->registrationinfo()
+#6 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-02-11 13:31:42 --> Class "App\Models\RegistrationModel" not found
+#0 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->register()
+#1 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-11 13:32:08 --> Class "App\Models\RegistrationModel" not found
+#0 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->register()
+#1 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-11 13:32:15 --> Class "App\Models\RegistrationModel" not found
+#0 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->register()
+#1 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}

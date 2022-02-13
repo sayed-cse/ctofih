@@ -1,0 +1,156 @@
+CRITICAL - 2022-02-12 13:08:41 --> File not found: images/picture.jpg
+#0 /var/www/html/ci418/system/Helpers/html_helper.php(147): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /var/www/html/ci418/app/Views/challenge/registration.php(2): img_data()
+#2 /var/www/html/ci418/system/View/View.php(210): include('...')
+#3 /var/www/html/ci418/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/ci418/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/html/ci418/app/Controllers/Challenge.php(39): view()
+#6 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->registrationinfo()
+#7 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+CRITICAL - 2022-02-12 13:08:55 --> File not found: images/picture.jpg
+#0 /var/www/html/ci418/system/Helpers/html_helper.php(147): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /var/www/html/ci418/app/Views/challenge/registration.php(2): img_data()
+#2 /var/www/html/ci418/system/View/View.php(210): include('...')
+#3 /var/www/html/ci418/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/ci418/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/html/ci418/app/Controllers/Challenge.php(39): view()
+#6 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->registrationinfo()
+#7 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+CRITICAL - 2022-02-12 13:10:08 --> File not found: images/picture.jpg
+#0 /var/www/html/ci418/system/Helpers/html_helper.php(147): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /var/www/html/ci418/app/Views/challenge/registration.php(2): img_data()
+#2 /var/www/html/ci418/system/View/View.php(210): include('...')
+#3 /var/www/html/ci418/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/ci418/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/html/ci418/app/Controllers/Challenge.php(39): view()
+#6 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->registrationinfo()
+#7 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+CRITICAL - 2022-02-12 14:49:02 --> Undefined variable $dynarobot
+#0 /var/www/html/ci418/app/Views/templates/header.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/View/View.php(210): include('...')
+#2 /var/www/html/ci418/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ci418/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ci418/app/Controllers/Challenge.php(38): view()
+#5 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->registrationinfo()
+#6 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-02-12 14:49:09 --> Undefined variable $dynarobot
+#0 /var/www/html/ci418/app/Views/templates/header.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/View/View.php(210): include('...')
+#2 /var/www/html/ci418/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ci418/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ci418/app/Controllers/Challenge.php(38): view()
+#5 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->registrationinfo()
+#6 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-02-12 15:44:03 --> Class "App\Models\RegistrationModel" not found
+#0 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->register()
+#1 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-12 15:45:05 --> syntax error, unexpected token ";", expecting ")"
+#0 /var/www/html/ci418/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/ci418/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 /var/www/html/ci418/app/Controllers/Challenge.php(69): CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->register()
+#4 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-12 17:05:23 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ci418/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ci418/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ci418/app/Controllers/Challenge.php(85): redirect()
+#3 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertReg()
+#4 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-12 17:11:55 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ci418/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ci418/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ci418/app/Controllers/Challenge.php(83): redirect()
+#3 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertReg()
+#4 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-12 17:20:09 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ci418/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ci418/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ci418/app/Controllers/Challenge.php(83): redirect()
+#3 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertReg()
+#4 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-12 17:21:01 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ci418/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ci418/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ci418/app/Controllers/Challenge.php(83): redirect()
+#3 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertReg()
+#4 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-12 17:28:36 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ci418/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ci418/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ci418/app/Controllers/Challenge.php(83): redirect()
+#3 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertReg()
+#4 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-12 17:28:51 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/ci418/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/html/ci418/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/html/ci418/app/Controllers/Challenge.php(83): redirect()
+#3 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertReg()
+#4 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-12 18:20:05 --> Undefined property: App\Controllers\Challenge::$session
+#0 /var/www/html/ci418/app/Controllers/Challenge.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertReg()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-12 18:20:24 --> Undefined property: App\Controllers\Challenge::$session
+#0 /var/www/html/ci418/app/Controllers/Challenge.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertReg()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
