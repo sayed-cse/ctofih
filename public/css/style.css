@@ -1,31 +1,85 @@
-*{margin:0;padding:0;text-decoration:none;list-style:none;font-size:small}
-img{width: 150px;height: 100px}textarea{resize:vertical}
-.errormsg,.successmsg{font-size:.8rem;font-weight:bolder;padding:4px}
+*,.tab-panel{margin:0;padding:0;border:0;outline:0;text-decoration:none;list-style:none;font-size:small;}
+*,*:before,*:after {box-sizing:border-box;}
+html,body{background-color:#2E3440;color:#74C8C5;min-height:100vh;height:100vh}
+a,a:link,a:visited,a:active{color:#eee;font-weight:bold}
+h1,h2,h3,h4,h5,h6{padding:0 0 0 8px;color:#72ccc6;text-shadow:3px 1px 1px #97B385}
+.vText,.uText{font-weight:bold;font-size:xx-large;-webkit-transform:rotate(-180deg);-moz-transform:rotate(-180deg);-o-transform:rotate(-180deg);-ms-transform:rotate(-180deg);transform:rotate(-180deg);transform:scale(-1, -1)}
+.vText{color:#3b4252;writing-mode:vertical-rl}
+.uText{color:#72ccc7;text-orientation:upright}
+
+#developer img{width: 150px;height: 100px}
+.errormsg,.successmsg{font-size:.8rem;font-weight:bolder;padding:8px}
 .errormsg{background-color:#f00;color:#fff}
 .successmsg{background-color:#070;color:#fff}
 
-#developer{width: auto}
+#developer{bottom:0;background-color:#15172B;color:#99B384;width:auto;}
 #developer dt,dd{display:inline-block}
 #developer dt{width:80px;height:80px;overflow:hidden}
 #developer dt img{width:100%;height:100%}
 #developer dd{font-size:x-small;height:80px;l}
 
+#form{margin:auto;width:50%;border:4px solid #3B4252;color: #000;border-radius:12px}
+textarea{resize:vertical}
+input[type="text"],input[type="date"],input[type="password"],input[type="email"],textarea,select{padding:8px;border-radius:8px;background-color:#dcdcdc;width:100%;box-shadow: inset 2px 2px 5px #babecc, inset -1px -1px 2px #dde1e7;}
+input[type="submit"],input[type="reset"],input[type="button"]{background-color:#BB616B;font-weight:bolder;border:0;border-radius:4px;padding:8px 15px;color:#eee}
+
+.hTitle{background-color:#3B4252;color:#BB616B;font-weight:bold;padding:8px;border-radius:8px 8px 0 0}
+.formFoot{background-color:#3B4252;text-align:center;border-radius:0 0 8px 8px}
+.formbg{padding:8px;background-color:#dde1e7;font-size:small;}
+
+/*[Login/Register Begin]*/
+.tabset > input[type="radio"] {position:absolute;left:-100vw;display:none;}
+.tabset .tab-panel {display: none;}
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {display:block;}
+
+.tabset {max-width: 50%;font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;color: #fff;margin:auto;margin: 10% auto 8% auto}
+.tabset > label {
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px 25px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 600;
+   background-color: #999;
+   border-radius: 8px 8px 0 0;
+  width: 49.7%;
+}
+
+.tabset > label::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 22px;
+  height: 4px;
+  background-color: #eee;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {background:#06c;}
+
+.tabset > input:checked + label {
+  border-color: #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: -1px;
+}
+.startTitle{background-color:#999;color:#fff;border-radius: 8px 8px 0 0;}
+.endTitle{text-align:center;background-color:#eee;border-radius:0 0 8px 8px;}
+#loader{margin:auto;display:none;background-color:#fff;text-align:center;padding:20px;font-size:x-small;font-weight:bold;width:250px;border-radius: 5px;border:2px solid #ddd;box-shadow:2px 2px 2px #ddd;z-index: 1001;} 
+@media screen and (min-width: 801px) { .tabset > label {width: 49.6%} }
+@media screen and (max-width: 800px) { .tabset > label {width: 49.2%} }
+@media screen and (max-width: 600px) { .tabset > label {width: 48.8%} }
+/*[Login/Register End]*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#bar{height:34px;background-color:#15172B;width:100%;clear:both}
+#bar li{float:left;padding:8px;}
+#bar li, #bar li a{display:block;font-size:small;color:#eee}
+#bar li a:hover, #bar li:hover{background-color:#70CEC7;color:#444}

@@ -9,9 +9,9 @@ class RegisterModel extends Model
     protected $primaryKey = 'bid';
     protected $useAutoIncrement = true;
     protected $returnType     = 'array';
-    protected $useSoftDeletes = true;
+    protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['title', 'tagline', 'description', 'schedule', 'entrydate', 'updatestatus', 'rules', 'year', 'fees'];
+    protected $allowedFields = ['bid','title', 'tagline', 'description', 'keyword', 'schedule', 'entrydate', 'updatestatus', 'rules', 'year', 'fees'];
 
     #protected $useTimestamps = false;
     #protected $createdField  = 'created_at';

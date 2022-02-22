@@ -30,8 +30,17 @@
 	<link rel="stylesheet" href="<?php echo(base_url('css/style.css')); ?>"/>
 	<base href="<?php echo(base_url()); ?>" target='_self'/>
 </head>
-<body>
+<body itemscope itemtype="https://schema.org/organization">
 	<?php if(session()->has("error")){ echo('<p class="errormsg">'.session()->getFlashdata('error').'</p>'); }elseif(session()->has("success")){ echo('<p class="successmsg">'.session()->getFlashdata('success').'</p>'); } ?>
 <header>
-	<a href="<?php echo(site_url('challenge/index/')); ?>">Challenge</a> | <a href="<?php echo(site_url('challenge/register/')); ?>">Registration</a> | <a href="<?php echo(site_url('challenge/roundinfo/')); ?>">Rounds</a>
+	<ul id="bar">
+		<li><a href="<?php echo(site_url('challenge/index/')); ?>">Challenge</a></li>
+		<li><a href="<?php echo(site_url('challenge/awardInfoForm/')); ?>">Award</a></li>
+		<li><a href="<?php echo(site_url('challenge/register/')); ?>">Registration</a></li>
+		<li><a href="<?php echo(site_url('challenge/roundinfo/')); ?>">Rounds</a></li>
+		<li>
+<?php if(session()->has('uname')){echo('<strong>'.session()->get('uname').'</strong> | <a href="'.site_url("auth/logout/").'">Logout</a>');}else{echo('<a href="'.site_url("auth/index/").'">Sign Up</a>');} ?>			
+		</li>
+	</ul>
+	<h1 style="font-size:40px">CTO FORUM<br/> INNOVATION HACKATHON</h1>
 </header>

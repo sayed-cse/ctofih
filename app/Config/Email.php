@@ -26,14 +26,14 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $userAgent = 'CodeIgniter';
+    public $userAgent = 'C.T.O Forum';
 
     /**
      * The mail sending protocol: mail, sendmail, smtp
      *
      * @var string
      */
-    public $protocol = 'mail';
+    public $protocol = 'smtp';
 
     /**
      * The server path to Sendmail.
@@ -47,28 +47,28 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $SMTPHost;
+    public $SMTPHost = 'smtp.googlemail.com';
 
     /**
      * SMTP Username
      *
      * @var string
      */
-    public $SMTPUser;
+    public $SMTPUser = 'styledbee@gmail.com';
 
     /**
      * SMTP Password
      *
      * @var string
      */
-    public $SMTPPass;
+    public $SMTPPass = '$#Admentor1';
 
     /**
      * SMTP Port
      *
      * @var int
      */
-    public $SMTPPort = 25;
+    public $SMTPPort = 465;
 
     /**
      * SMTP Timeout (in seconds)
@@ -82,14 +82,14 @@ class Email extends BaseConfig
      *
      * @var bool
      */
-    public $SMTPKeepAlive = false;
+    public $SMTPKeepAlive = true;
 
     /**
      * SMTP Encryption. Either tls or ssl
      *
      * @var string
      */
-    public $SMTPCrypto = 'tls';
+    public $SMTPCrypto = 'ssl';
 
     /**
      * Enable word-wrap
@@ -110,7 +110,7 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $mailType = 'text';
+    public $mailType = 'html';
 
     /**
      * Character set (utf-8, iso-8859-1, etc.)
@@ -131,7 +131,7 @@ class Email extends BaseConfig
      *
      * @var int
      */
-    public $priority = 3;
+    public $priority = 1;
 
     /**
      * Newline character. (Use “\r\n” to comply with RFC 822)

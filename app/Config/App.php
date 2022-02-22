@@ -23,8 +23,8 @@ class App extends BaseConfig
      *
      * @var string
      */
- #   public $baseURL = 'http://localhost:8080/ci418/';
-        public $baseURL = 'http://localhost:8080/';
+#    public $baseURL = 'http://localhost/ci418/';
+    public $baseURL = 'http://localhost:8080/';
     /**
      * --------------------------------------------------------------------------
      * Index File

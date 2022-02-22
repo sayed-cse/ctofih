@@ -1,0 +1,123 @@
+CRITICAL - 2022-02-15 01:57:37 --> htmlspecialchars(): Argument #1 ($string) must be of type string, null given
+#0 /var/www/html/ci418/app/Controllers/Challenge.php(79): htmlspecialchars()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertBasic()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-15 01:57:56 --> htmlspecialchars(): Argument #1 ($string) must be of type string, null given
+#0 /var/www/html/ci418/app/Controllers/Challenge.php(79): htmlspecialchars()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertBasic()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-15 01:58:39 --> htmlspecialchars(): Argument #1 ($string) must be of type string, null given
+#0 /var/www/html/ci418/app/Controllers/Challenge.php(79): htmlspecialchars()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertBasic()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-15 02:24:43 --> syntax error, unexpected token ";"
+#0 /var/www/html/ci418/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/ci418/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/ci418/app/Controllers/Challenge.php(56): view()
+#3 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->register()
+#4 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-15 02:31:43 --> Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+#0 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->basicForm()
+#1 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-15 02:32:00 --> Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+#0 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->basicForm()
+#1 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-15 02:32:12 --> Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+#0 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->basicForm()
+#1 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+ERROR - 2022-02-15 02:59:20 --> Table 'ctofih.some_table' doesn't exist
+CRITICAL - 2022-02-15 02:59:20 --> Table 'ctofih.some_table' doesn't exist
+#0 /var/www/html/ci418/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/ci418/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci418/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci418/app/Controllers/Challenge.php(81): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertBasic()
+#5 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-02-15 03:07:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '>request->getPost("title")' at line 1
+CRITICAL - 2022-02-15 03:07:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '>request->getPost("title")' at line 1
+#0 /var/www/html/ci418/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/ci418/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci418/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci418/app/Controllers/Challenge.php(80): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertBasic()
+#5 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-02-15 03:09:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '>request->getPost("title")' at line 1
+CRITICAL - 2022-02-15 03:09:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '>request->getPost("title")' at line 1
+#0 /var/www/html/ci418/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/ci418/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci418/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci418/app/Controllers/Challenge.php(80): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertBasic()
+#5 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-02-15 03:10:27 --> syntax error, unexpected identifier "title", expecting ")"
+#0 /var/www/html/ci418/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/ci418/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/ci418/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-15 03:11:14 --> syntax error, unexpected double-quote mark, expecting ")"
+#0 /var/www/html/ci418/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/ci418/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/ci418/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-15 03:11:26 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+#0 /var/www/html/ci418/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/ci418/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/ci418/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-15 03:11:53 --> Undefined variable $newName
+#0 /var/www/html/ci418/app/Controllers/Challenge.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->insertBasic()
+#2 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}

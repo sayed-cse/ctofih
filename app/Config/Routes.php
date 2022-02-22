@@ -33,10 +33,21 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Challenge::index');
 $routes->get('/challenge/index', 'Challenge::index');
-$routes->get('/challenge/registration', 'Challenge::register');
-$routes->get('/challenge/registration/(:any)', 'Challenge::basicForm/$1');
+$routes->get('/challenge/registrationinfoForm', 'Challenge::register');
+$routes->get('/challenge/registrationinfoForm/(:any)', 'Challenge::basicForm/$1');
 $routes->post('/challenge/', 'Challenge::insertBasic');
+$routes->get('/challenge/roundinfoForm', 'Challenge::roundinfo');
+$routes->get('/challenge/awardinfoForm', 'Challenge::awardInfoForm');
 
+
+$routes->post('/challenge/erase/(:any)', 'Challenge::eraseBasic/$1');
+#Authentication
+$routes->get('/auth/index', 'Auth::index');
+$routes->post('/auth/signin', 'Auth::signin');
+$routes->post('/auth/signup', 'Auth::signup');
+$routes->get('/auth/verifySign/(:any)', 'Auth::verifySign/$1');
+$routes->post('/auth/logout', 'Auth::logout');
+#
 /*
  * --------------------------------------------------------------------
  * Additional Routing

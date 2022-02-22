@@ -458,3 +458,14 @@ CRITICAL - 2022-02-14 03:06:07 --> htmlspecialchars(): Argument #1 ($string) mus
 #4 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
 #5 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
 #6 {main}
+CRITICAL - 2022-02-14 18:00:30 --> There is no data to update.
+#0 /var/www/html/ci418/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/ci418/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /var/www/html/ci418/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /var/www/html/ci418/app/Controllers/Challenge.php(140): CodeIgniter\Model->update()
+#4 /var/www/html/ci418/system/CodeIgniter.php(825): App\Controllers\Challenge->updateBasic()
+#5 /var/www/html/ci418/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ci418/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ci418/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/ci418/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
